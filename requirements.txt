@@ -1,0 +1,9 @@
+mlflow
+tsfresh
+jupyterlab
+scikit-learn
+scikit-image
+pandas
+tqdm
+numpy
+virtualenv

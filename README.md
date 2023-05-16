@@ -17,14 +17,13 @@ docker run -it -v "${PWD}/DataScienceMLTest":"/home/worker/DataScienceMLTest" -p
 
 
 ### Start interactive bash session
-To start a interactive bash session, once the container is up and running, 
-simply do
+Once the container is up and running simply do
 ```
 docker exec -it <container_name> bash
 ```
 
 ### Start jupyter lab
-Once inside a container bash session,
+Once inside a container bash session, start jupyter lab service with
 ```
 jupyter lab --ip=0.0.0.0 --no-browser
 ```

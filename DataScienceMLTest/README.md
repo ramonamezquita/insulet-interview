@@ -53,7 +53,7 @@ Contains data for mlflow runs. Initially, it only contains data for a single
 run with ``run_id=620014e9c50548a9bd060d8e7309dfc7``, which corresponds to
 the final model from which the final predictions where obtained.
 To deploy it locally, start a bash session 
-(``docker exec -it <container_name> bash``) and do,
+(``docker exec -it <container_name> bash``) and do
 
 ````
 cd DataScienceMLTest/

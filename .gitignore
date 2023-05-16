@@ -1,5 +1,6 @@
 .DS_Store
 .idea
+DataScienceMLTest/notebooks
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

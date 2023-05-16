@@ -8,9 +8,9 @@ also exist:
 3. transformers.py
 4. notebooks (folder)
 5. mlruns (folder)
-5. mlartifacts (folder)
+6. mlartifacts (folder)
 
-### train.py
+### 2. train.py
 
 Contains the training script. To execute it, simply do
 
@@ -18,7 +18,7 @@ Contains the training script. To execute it, simply do
 python train.py -r <mlflow_run_name> -n <n_estimators>
 ````
 
-### transformers.py
+### 3. transformers.py
 
 Contains a collection of custom sklearn transformers used inside the
 training script. For example,
@@ -42,12 +42,12 @@ class CustomTransformer(BaseEstimator, TransformerMixin):
         ...
 ```
 
-### notebooks (folder)
+### 4. notebooks (folder)
 
 Contains experimental notebooks that show the thought process for arriving to
 the final solution.
 
-### mlruns
+### 5. mlruns
 
 Contains data for mlflow runs. Initially, it only contains data for a single
 run with ``run_id=620014e9c50548a9bd060d8e7309dfc7``, which corresponds to
@@ -66,7 +66,7 @@ inside the **DataScienceMLTest** directory.
 in use by the Mlflow UI.
 
 
-### mlartifacts
+### 6. mlartifacts
 
 Contains mlflow artifacts.
 
